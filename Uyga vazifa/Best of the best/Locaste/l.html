@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="l.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <div class="tepa">
+        <div class="logo">
+            <h2>LACOSTE</h2> <img src="logo.png" width="70">
+        </div>
+        <div class="search">
+            <input type="text" placeholder="Find a product">
+        </div>
+        <div class="icons">
+    <span class="fs--medium upper-case">
+        en
+    </span>
+
+    <i class="fa-solid fa-location-dot"></i>
+    </div>
+</div>
+    <div class="con-vid">
+        <div class="menu-vid">
+            <video autoplay muted>
+                <source src="fon.webm" type="video/mp4">
+                <source src="fon.webm" type="video/ogg">
+            </video>
+        </div>
+        <div class="text-vid">
+            <h1>LOO1 & L002 sneakers</h1>
+            <p>Where generations connect in surprising encounters</p>
+        </div>
+        <button class="butt-vid-1">Explore instant classics</button>
+        <button class="butt-vid-2">Shop the collection</button>
+    </div>
+    <div class="slideshow-container" style="z-index: -1000;">
+        <h1 style="position: relative; z-index: -1000;">Lacoste Seasonal Wardrobe </h1>
+        <div class="mySlidess">
+            <img src="sl1.avif" style="width: 100%; height: 1000px;">
+        </div>
+        <div class="mySlidess">
+            <img src="sl2.avif" style="width: 100%; height: 1000px;">
+        </div>
+        <div class="mySlidess">
+            <img src="sl3.avif" style="width: 100%; height: 1000px;">
+        </div>
+        <div class="mySlidess">
+            <img src="sl4.avif" style="width: 100%; height: 1000px;">
+        </div>
+        <div class="mySlidess">
+            <img src="sl5.avif" style="width: 100%; height: 1000px;">
+        </div>
+        <div class="mySlidess">
+            <img src="sl6.avif" style="width: 100%; height: 1000px;">
+        </div>
+        <a class="prev" onclick="plusSlidess(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlidess(1)">&#10095;</a>
+    </div>
+    <br>
+
+    <div style="text-align: center;">
+    <span class="dott" onclick="currentSlidee(1)"></span>
+    <span class="dott" onclick="currentSlidee(2)"></span>
+    <span class="dott" onclick="currentSlidee(3)"></span>
+    <span class="dott" onclick="currentSlidee(4)"></span>
+    <span class="dott" onclick="currentSlidee(5)"></span>
+    <span class="dott" onclick="currentSlidee(6)"></span>
+    </div>
+    <br><br><br><br>
+    <div class="menu-3">
+        <img src="odam.avif" width="55%">
+        <div class="m3-text">
+        <h1>Lacoste Sport</h1>
+        <p>In the gym or in training. Across all surfaces. <br> All the time.</p>
+        <button class="mb3">Reach further</button>
+        </div>
+    </div>
+    <div class="gall">
+        <h2 class="wer">The Lacoste world</h2>
+        <div class="gcon1">
+            <img src="gal.avif"  width="45%">
+            <h2>When it gets a litile warmer</h2>
+            <p>Spring Selection</p>
+            <button>Go light</button>
+        </div>
+        <div class="gcon2">
+            <img src="gal2.avif" width="45%">
+            <h2>Lacoste leather goods</h2>
+            <p>The bags are out</p>
+            <button>Zip, and off we go</button>
+        </div>
+        <div class="gcon3">
+            <img src="gal3.avif" width="45%">
+            <h2>The shoes show</h2>
+            <p>Put fashion at your feet</p>
+            <button>Let's go</button>
+        </div>
+        <div class="gcon4">
+            <img src="gal4.avif" width="45%">
+            <h2>Laciste x Minecraft</h2>
+            <p>It all begins with plat</p>
+            <button>Shop the collection</button>
+        </div>
+    </div>
+    <div class="minecraft"><br><br>
+        <h1 style="color: white; font-size: 1.8rem; margin-left: 4%; margin-bottom: -50px;">Lacoste Inside </h1>
+        <img src="logo4.png" width="5%" style="margin-left: 17%;">
+        <br>
+        <img src="soobshestvo.avif" width="50%" style="margin-left: 4%;">
+        <div class="soob-txt">
+        <p>A HAPPY, PLAYFUL TEAM</p>
+        <h2 style="color: white;">Lacoste x Minecraft</h2>
+        <p>Croco Island. As many players as there are <br>
+        profiles. Pieces logoed with the crocodile and the <br>
+        Minecraft M. A collection for the game enthusiasts<br>
+        and the style enthusiasts. Between virtual and <br>
+        reality.</p>
+        <button>Discover the collaboration</button>
+        </div>
+    </div>
+    <div class="footer"><br>
+        <h2 style="margin-left: 4%;">Join Le Club Lacoste</h2>
+    </div>
+    <script>
+        var slideIndexx = 2;
+        showSlidess(slideIndexx);
+
+        function plusSlidess(m) {
+            showSlidess(slideIndexx += m);
+        }
+
+        function currentSlidee(m) {
+            showSlidess(slideIndexx = m);
+        }
+
+
+function showSlidess(m) {
+            var i;
+            var slides = document.getElementsByClassName("mySlidess");
+            var dots = document.getElementsByClassName("dott");
+            if (m > slides.length) {slideIndexx = 2}
+            if (m < 2) {slideIndexx = slides.length}
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" activee", "");
+
+            }
+            slides[slideIndexx-1].style.display = "block";
+            dots[slideIndexx-1].className += " activee";
+            
+        }
+        </script>
+</body>
+</html>

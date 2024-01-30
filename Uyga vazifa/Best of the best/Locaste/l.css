@@ -1,0 +1,389 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.tepa {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position:-webkit-sticky;
+    position: sticky;
+    top: 0;
+    background: white;
+    margin-left: -8px;
+    width: 100.4%;
+    padding: 5px;
+    height: 80px;
+}
+
+.search {
+    z-index: 1000;
+    display: block;
+}
+
+.search input{
+    margin-left: 15%;
+    width: 70%;
+    height: 40px;
+    border-radius: 100px;
+    background: whitesmoke;
+    border: none;
+    padding: 0 20px;
+}
+
+.logo h2 {
+    margin-bottom: -50px;
+}
+
+.logo img {
+    margin-left: 100px;
+}
+
+.menu-vid video{
+    width: 100.5%;
+}
+
+.logo {
+    margin-bottom: -50px;
+    margin-left: 2%;
+}
+
+.menu-vid {
+    margin-left: -8px;
+}
+
+
+html {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.text-vid h1{
+    font-size: 41px;
+    margin-left: 3%;
+    margin-bottom: -20px;
+}
+.text-vid p {
+    margin-left: 3%;
+}
+
+.text-vid {
+    color: white;
+    margin-top: -370px;
+}
+
+
+
+.butt-vid-1 {
+    width: 200px;
+    height: 45px;
+    background: white;
+    color: #000;
+    border: none;
+    border-radius: 100px;
+    margin-left: 45px;
+    transition: 0.3s ease;
+}
+.butt-vid-1:hover {
+    background: #000;
+    color: white;
+}
+.butt-vid-2 {
+    width: 180px;
+    height: 45px;
+    background: white;
+    color: #000;
+    border: none;
+    border-radius: 100px;
+    margin-left: 10px;
+    transition: 0.3s ease;
+}
+.butt-vid-2 button:hover {
+    background: #000;
+    color: white;
+}
+
+.fs--medium {
+    font-size: 20px;
+}
+.upper-case {
+    text-transform: uppercase;
+}
+
+.icons {
+    margin-left: 87%;
+    margin-top: -30px;
+}
+
+.icons span, i {
+    margin-left: 20px;
+}
+
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+
+}
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top:50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+.prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px ;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+.dott {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+.activee, .dott:hover {
+    background-color: #717171;
+
+}
+.fade {
+    
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+@-webkit-keyframes fade {
+    from {
+        opacity: .4;
+    }
+    to {
+        opacity: 1;
+    }
+}
+    @keyframes fade {
+        from {
+            opacity: .4;
+        }
+        to {
+            opacity: 1;
+        }
+        
+    }
+    @media  only screen and (max-width:300px){
+        .prev,.next, .text {
+            font-size: 11px;
+    }        
+}
+.slideshow-container {
+    margin-top: 400px;
+}
+
+.m3-text {
+    margin-left: 64%;
+    margin-top: -450px;
+}
+
+.m3-text h1{
+    margin-bottom: -15px;
+}
+
+.m3-text button {
+    width: 160px;
+    height: 40px;
+    border-radius: 100px;
+    border: none;
+    background: #292929;
+    color: white;
+    transition: 0.3s ease;
+}
+
+.m3-text button:hover {
+    background: white;
+    color: #292929;    
+}
+
+.wer {
+    margin-left: 5%;
+    font-size: 30px;
+}
+
+.gall {
+    margin-top: 370px;
+}
+
+
+.gall button {
+    background: white;
+    color: #292929;
+    border-radius: 100px;
+    border: none;
+    transition: 0.3s ease;
+}
+
+.gall button:hover {
+    background: #292929;
+    color: white;
+}
+
+.gall h2 {
+    color: white;
+}
+.gall p {
+    color: white;
+}
+
+.gcon1 img{
+    margin-left: 4%;
+}
+.gcon1 h2{
+    margin-left: 10%;
+    margin-top: -200px;
+    margin-bottom: -15px;
+}
+.gcon1 p{
+    margin-left: 10%;
+}
+.gcon1 button{
+    margin-left: 10%;
+    width: 130px;
+    height: 45px;
+    font-size: 15px ;
+}
+.gcon2 img{
+    margin-left: 50%;
+    margin-top: -597px;
+}
+.gcon2 h2{
+    margin-left: 60%;
+    margin-top: -200px;
+    margin-bottom: -15px;
+}
+.gcon2 p{
+    margin-left: 60%;
+}
+.gcon2 button{
+    margin-left: 60%;
+    width: 200px;
+    height: 45px;
+    font-size: 15px;
+}
+
+.gcon2 {
+    margin-left: 3%;
+    display: inline;
+}
+
+.gcon3 img{
+    margin-top: 140px;
+    margin-left: 4%;
+}
+.gcon3 h2{
+    margin-left: 10%;
+    margin-top: -200px;
+    margin-bottom: -15px;
+}
+.gcon3 p{
+    margin-left: 10%;
+}
+.gcon3 button{
+    margin-left: 10%;
+    width: 130px;
+    height: 45px;
+    font-size: 15px;
+}
+
+.gcon4 img{
+    margin-left: 50%;
+    margin-top: -597px;
+}
+.gcon4 h2{
+    margin-left: 60%;
+    margin-top: -200px;
+    margin-bottom: -15px;
+}
+.gcon4 p{
+    margin-left: 60%;
+}
+.gcon4 button{
+    margin-left: 60%;
+    width: 200px;
+    height: 45px;
+    font-size: 15px;
+}
+
+.gcon4 {
+    margin-left: 3%;
+    display: inline;
+}
+
+.minecraft {
+    margin-top: 150px;
+    margin-left: -8px;
+    width: 101%;
+    height: 100vh;
+    background: #C4D1DF;
+}
+
+.minecraft p {
+    color: white;
+}
+
+.soob-txt {
+    margin-left: 60%;
+    margin-top: -280px;
+}
+
+.soob-txt button {
+    width: 250px;
+    font-size: 15px;
+    height: 45px;
+    background: white;
+    color: #292929;
+    border-radius: 100px;
+    border: none;
+    transition: all 0.4s ease-in-out;
+}
+
+.soob-txt button:hover {
+    background: #292929;
+    color: white;
+    transform: scale(1.05);
+}
+
+.footer {
+    background: #f4f4f4;
+    margin-top: -20px;
+    margin-left: -8px;
+    width: 101%;
+}
+
+button {
+    cursor: pointer;
+}

@@ -1,0 +1,353 @@
+.tepa p {
+    font-size: 11px;
+    line-height: 15px;
+    font-weight: bold;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+.tepa i {
+    color: #ffffff;
+}
+
+.drop li {
+    padding: 10px;
+}
+
+.drop {
+    height: 90px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+li {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.q1 {
+    margin-left: -10px;
+    width: 100%;
+    height: 65vh;
+}
+
+.q2 {
+    margin-left: -33.1%;
+    width: 100%;
+    height: 65vh;
+}
+.q3 {
+    margin-left: -40.8%;
+    width: 100%;
+    height: 65vh;
+}
+.q4 {
+    margin-left: -46.6%;
+    width: 100%;
+    height: 65vh;
+}
+.q5 {
+    margin-left: -52.2%;
+    width: 100%;
+    height: 65vh;
+}
+
+.logo {
+    margin-bottom: -70px;
+    margin-top: 10px;
+    margin-left: 35px;
+    cursor: pointer;
+}
+
+.drop-txt p {
+    margin-top: -2px;
+}
+
+.search i {
+    margin-left: -1.5%;
+}
+
+.search input[type=text] {
+    width: 200px;
+    background: #ededed;
+    height: 30px;
+    margin-top: -10px;
+    border: none;
+    margin-left: 170px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.menu1-txt {
+    margin-top: -450px;
+    margin-left: 7%;
+}
+
+.menu1-txt button {
+    width: 155px;
+    height: 45px;
+    background: white;
+    border: none;
+    cursor: pointer;
+}
+
+.knopki {
+    font-size: 16px;
+    margin-top: 60px;
+    padding: 0 12px;
+}
+
+.menu2 {
+    display: flex;
+}
+
+.k1 {
+    margin-left: -30%;
+    width: 100px;
+    height: 40px;
+    border: 1px solid #ccc;
+}
+
+.k1 p{
+    margin-top: 10px;
+}
+
+.knopki:hover {
+    border: 1px solid #000;
+}
+
+.k2 {
+    margin-left: 10px;
+    width: 55px;
+    height: 40px;
+    border: 1px solid #ccc;
+}
+
+.k2 p {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.k3 {
+    margin-left: 10px;
+    width: 65px;
+    height: 40px;
+    border: 1px solid #ccc;
+}
+
+.k3 p {
+    margin-left: 7px;
+    margin-top: 10px;
+}
+.k4 {
+    margin-left: 10px;
+    width: 100px;
+    height: 40px;
+    border: 1px solid #ccc;
+}
+
+.k4 p {
+    margin-left: 7px;
+    margin-top: 10px;
+}
+
+.k5 {
+    margin-left: 10px;
+    width: 65px;
+    height: 40px;
+    border: 1px solid #ccc;
+}
+
+.k5 p {
+    margin-left: 7px;
+    margin-top: 10px;
+}
+
+.menu3 {
+    display: flex;
+    gap: 10px;
+    margin-top: 100px;
+    margin-left: 10%;
+}
+
+.menu4 {
+    display: flex;
+    margin-top: 50px;
+    gap: 45px;
+    margin-left: 10%;
+}
+
+.con1:hover {
+    width: 276px;
+    height: 360px;
+    border: 1px solid #000000;
+}
+.con1 {
+    width: 276px;
+    height: 360px;
+    border: 1px solid white;
+}
+.con2:hover {
+    width: 276px;
+    height: 360px;
+    border: 1px solid #000000;
+}
+.con2 {
+    width: 276px;
+    height: 360px;
+    border: 1px solid white;
+}
+.con3:hover {
+    width: 276px;
+    height: 360px;
+    border: 1px solid #000000;
+}
+.con3 {
+    width: 276px;
+    height: 360px;
+    border: 1px solid white;
+}
+.con4:hover {
+    width: 276px;
+    height: 360px;
+    border: 1px solid #000000;
+}
+.con4 {
+    width: 276px;
+    height: 360px;
+    border: 1px solid white;
+}
+
+.menu5 {
+    margin-top: 150px;
+}
+
+.coon1 img{
+    margin-left: 3%;
+}
+.coon1 p{
+    margin-left: 3.5%;
+}
+
+.coon2 img{
+    margin-left: 26.5%;
+}
+.coon2 p{
+    margin-left: 27%;
+}
+
+.coon2 {
+    margin-top: -626px;
+}
+
+.coon3 img{
+    margin-left: 50%;
+}
+.coon3 p{
+    margin-left: 50.5%;
+}
+
+.coon3 {
+    margin-top: -625px;
+}
+
+.coon4 img{
+    margin-left: 73.5%;
+}
+.coon4 p{
+    margin-left: 74%;
+}
+
+.coon4 {
+    margin-top: -620px;
+}
+
+.polosa {
+    background: #ede734;
+    margin: -8px;
+    margin-top: -20px;
+    height: 150px;
+}
+
+.polosa button {
+    width: 230px;
+    height: 55px;
+    background: #000000;
+    color: white;
+    margin-left: 55%;
+    font-size: 15px;
+}
+
+.sled {
+    width: 230px;
+    height: 55px;
+    background: #ede734;
+    border: 1px solid black;
+    margin-left: 55.2%;
+    margin-top: -52.5px;
+}
+
+.footer ul li {
+    list-style-type: none;
+}
+.footer ul li:hover:not(.dark) {
+    text-decoration: underline;
+}
+
+.dark {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.white {
+    font-size: 15px;
+    opacity: 0.9;
+}
+
+.footer {
+    display: flex;
+    gap: 60px;
+    margin-left: 14%;
+    margin-top: 20px;
+}

@@ -1,0 +1,1 @@
+import{initNotifications as o}from"../framework/base/notifications.js";import{recommendationInit as m}from"../framework/components/recommendation.js";m(".js-home-recommendations"),o();

@@ -1,0 +1,284 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #2c2c2c;
+}
+
+.buuton {
+    font-size: 12px;
+    color: black;
+    width: 100px;
+    height: 25px;
+    background: #abd9ff;
+    box-shadow: 0 0 10px #abd9ff;
+    text-align: center;
+    font-weight: 600;
+}
+
+
+.buuton:hover{
+    background: #fff;
+}
+
+.menut {
+    width: 150px;
+    display: flex;
+}
+
+.menut li {
+    list-style-type: none;
+    color: #000000;
+    padding: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.menut li:hover {
+    text-decoration: underline;
+}
+
+.search i{
+    height:2.5rem;
+    line-height: 2.5rem;
+    width:2.5rem;
+    text-align: center;
+    color: #000000;
+    background:#ffffff;
+    border-radius: 50%;
+    margin-left: 900px;
+    font-size: 1.2rem;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.menu1-txt {
+    margin-top: -370px;
+    margin-left: 10%;
+}
+
+.menu1-txt button {
+    width: 130px;
+    height: 45px;
+    border: none;
+    border-radius: 5px;
+    background: white;
+}
+
+.menu1-txt button:hover {
+    background: #000000;
+    color: white;
+}
+
+
+.menu2 p{
+    color: #2c2c2c;
+    font-size: 11px;
+}
+
+.menu2 img{
+    cursor: pointer;
+}
+/* color: #006db7; */
+.con1 p {
+    cursor: pointer;
+}
+
+.con1 p:hover {color: #006db7; text-decoration: underline;}
+.con2 p:hover {color: #006db7; text-decoration: underline;}
+.con3 p:hover {color: #006db7; text-decoration: underline;}
+.con4 p:hover {color: #006db7; text-decoration: underline;}
+.con5 p:hover {color: #006db7; text-decoration: underline;}
+.con6 p:hover {color: #006db7; text-decoration: underline;}
+.con7 p:hover {color: #006db7; text-decoration: underline;}
+.con8 p:hover {color: #006db7; text-decoration: underline;}
+
+.container {
+    width: 310px;
+    height: 300px;
+    box-shadow: 0 0 10px rgb(255, 255, 255);
+    border:1px solid #d6d6d6;
+}
+
+.new-txt {
+    width: 40px;
+    height: 20px;
+    background: #ffcf00;
+    font-size: 12px;
+    margin-left: 13px;
+    margin-top: 30px;
+}
+
+.new-txt p{
+    margin-left: 7px;
+}
+
+.popa:hover {
+    text-decoration: underline;
+    font-size: 16px;
+}
+
+.but {
+    font-size: 16px;
+    border: 1px solid #fd8024;
+    background: #fd8024; 
+    width: 310px;
+    height: 50px;
+    border-radius: 5px;
+    color: #000000;
+    text-align: center;
+    margin-top: -17px;
+    font-weight: 600;
+}
+
+.but:hover {
+    background: white;
+    border-radius: 5px;  
+} 
+
+
+.informaciya {
+    background: #e6f3ff;
+    border-radius: 100px;
+    width: 80%;
+    margin-top: 70px;
+    margin-left: 10%;
+    height: 109px;
+}
+
+.ava {
+    margin-left: 10px;
+}
+
+.ava img {
+    margin-top: 5px;
+    border: 4px solid white;
+    border-radius: 50%;
+}
+
+.cookes {
+    margin-left: 95%;
+    margin-top: -105px;
+}
+
+.bashara button{
+    background: #000000;
+    color: white;
+}
+
+.bashara button:hover {
+    background: #ffffff;
+    color: #000000;
+}
+
+.shop-now{
+    width: 400px;
+    height: 200px;
+}
+
+.shop-now:hover {
+    text-decoration: underline;
+}
+
+.shop-now b{
+    text-decoration-color: white;
+}
+
+.shop-now p{
+    margin-left: 37%;
+}
+
+.hotin {
+    background: #f5f5f5;
+    margin-top: 90px;
+}
+
+.strochka1 p{
+    margin: 10px;
+}
+
+.hover-lash{
+    color: white;
+    list-style-type: none;
+    margin: 25px;
+}
+
+.hover-lash:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+.inpuut {
+    margin-left: 20px;
+    margin-top: 100px;
+}
+.inpuut input[type=text] {
+    width: 13%;
+    height: 55px;
+    padding: 15px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.strelka {
+    background: #fd8024;
+    width: 65px;
+    margin-left: 13%;
+    margin-top: -64px;
+    height: 50px;
+    border-radius: 0px 5px 5px 0px;
+    border: 3px solid #fd8024;
+    color: #2c2c2c;
+    font-size: 40px;
+}
+
+.strelka p{
+    margin-top: -5px;
+    margin-left: 20px;
+}
+.strelka:hover{
+    background: white;
+} 
+
+.oddiy {
+    list-style-type: none;
+    margin-left: 24px;
+}
+
+.spec-container {
+    display: flex;
+    margin-left: 20%;
+    margin-top: -38%;
+}
+
+.follow {
+    margin-left: 75%;
+    margin-top: 50px;
+}
+
+.follow img {
+    padding: 0 10px;
+    cursor: pointer;
+}
+
+.follow p {
+    margin-left: 12px;
+    margin-bottom: 30px;
+} 
+.oddiy {
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+.opisaniye-konca {
+    font-size: 12px;
+}
+
+.opisaniye-konca-p{
+    display: flex;
+    gap: 50px;
+    margin-left: 3.8%;
+}
+
+.opisaniye-konca-p p:hover {
+    text-decoration: underline;
+}

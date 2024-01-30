@@ -1,0 +1,529 @@
+body {
+    margin: 0;
+    font-family: Proxima Nova W01,-apple-system,BlinkMacSystemFont,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: .875rem;
+    font-weight: 300;
+    line-height: 1.5;
+    color: #151415;
+    text-align: left;
+    background-color: #fff;
+}
+:root {
+    --blue: #0070d2;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #c00;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #008827;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #cf0a2c;
+    --secondary: transparent;
+    --success: #008827;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #cf0a2c;
+    --light: #f8f9fa;
+    --dark: #343a40;
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 544px;
+    --breakpoint-md: 769px;
+    --breakpoint-lg: 992px;
+    --font-family-sans-serif: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    --font-family-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+}
+html {
+    font-family: sans-serif;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    scroll-behavior: smooth;
+}
+ul { 
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+}
+
+.dropdown {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: #000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    text-decoration: underline;
+    color: var(--danger);
+    transition: 0.6s ease;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 0 8px 16px 0 rgb(0,0,0,0.2);
+    z-index: 100;
+}
+
+.dropdown-content a {
+    
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    cursor: pointer;
+}
+
+.dropdown-content a:hover {
+    color: #000;
+    text-decoration: underline;
+
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+ul img {
+    float: left;
+    margin-top: 12px;
+}
+
+.tepa {
+    background: rgb(232, 232, 232);
+    padding: 1px;
+    margin-top: -18px;
+}
+
+.tepa p {
+    margin-left: 39%;
+    margin-top: 25px;
+}
+
+
+
+.dropdown {
+    margin-left: 10px;
+}
+
+.dropdown-content img {
+    margin-left: 50px;
+}
+
+input {
+    margin-left: 32%;
+    margin-top: 20px;
+    width: 160px;
+    height: 30px;
+    background: rgb(232, 232, 232);
+    border: 1px solid rgb(159, 159, 159);
+}
+
+
+
+.fa-user {
+    margin-left: 30px;
+    font-size: 24px;
+}
+
+.ul1  {
+    margin-left: 83%;
+    margin-top: -30px;
+}
+
+.ul2 {
+    margin-left: 88%;
+    margin-top: -10.5px;
+}
+
+.palka {
+    background-color: #000;
+    padding: 1px;
+    width: 20px;
+    transform: rotate(-90deg);
+    margin-left: 86.5%;
+    margin-top: -25px;
+}
+
+.fa-cart-plus {
+    margin-left: 25px;
+}
+
+.about img {
+    z-index: -1;
+}
+
+.about h1 {
+    font-family: none;
+    font-size: 50px;
+    color: #fff;
+    margin-top: -450px;
+    margin-left: 10%;
+}
+
+.about p {
+    color: #fff;
+    margin-left: 10%;
+}
+
+.about button {
+    width: 180px;
+    height: 50px;
+    color: #fff;
+    background: var(--red);
+    border: none;
+    margin-left: 10%;
+    transition: 0.5s ease;
+}
+
+.about button:hover {
+    background: rgb(187, 0, 0);
+}
+
+.info1 {
+    margin-top: 250px;
+    margin-left: 5%;
+    font-size: 15px;
+}
+
+
+.slide {
+    margin-top: 100px;
+}
+
+.slide h2 {
+    margin-left: 43.5%;
+}
+
+.con {
+    background: #f9f9f9;
+    padding: 15px;
+}
+
+.slide p {
+    float: left;
+}
+
+.liniyaya1{
+    width: 220px;
+    height: 4px;
+    background-color: var(--danger);
+    margin-left: 26%;
+}
+
+.liniyaya2 {
+    width: 220px;
+    height: 1px;
+    background-color: #000000;
+    margin-left: 40.5%;
+    margin-bottom: -0.5px;
+}
+
+
+.liniyaya3 {
+    width: 220px;
+    height: 1px;
+    background-color: #000000;
+    margin-left: 55%;
+}
+
+.liniyaya1 p {
+    margin-left: 40%;
+    margin-top: -30px;
+    color: #c00;
+}
+.liniyaya2 p {
+    margin-left: 40%;
+    margin-top: -30px;
+}
+.liniyaya3 p {
+    margin-left: 40%;
+    margin-top: -30px;
+}
+
+.slide-1 {
+    margin-left: 6%;
+}
+.slide-2 {
+    margin-left: 36.5%;
+    margin-top: -435px;
+}
+.slide-3 {
+    margin-left: 67%;    
+    margin-top: -435px;
+}
+
+.cen-1 {
+    margin-left: 370px;
+}
+
+.slide button {
+    width: 400px;
+    height: 50px;
+    margin-left: 35%;
+    border: 2px solid #c00;
+    background: white;
+    color: #c00;
+    font-size: 15px;
+    font-family: sans-serif;
+    transition: 0.3s ease;
+}
+
+.slide button:hover {
+    border: 4px solid #c00;
+}
+
+.chap {
+    margin-left: 5%;
+}
+
+.on {
+    margin-left: 50%;
+    margin-top: -160px;
+}
+
+.shtoto img {
+    margin: -3px;
+}
+
+.button{
+    width: 150px;
+    height: 50px;
+    border: none;
+    background: #c00;
+    color: white;
+    font-size: 15px;
+    transition: 0.3s ease;
+}
+
+.button:hover {
+    background: rgb(187, 0, 0);
+}
+
+.hover{
+    width: 150px;
+    height: 50px;
+    background: white;
+    color: #c00;
+    font-size: 15px;
+    border: 2px solid #c00;
+    transition: 0.3s ease;
+}
+
+.hover:hover {
+    border: 4px solid #c00;
+}
+
+.chap button {
+    margin: 5px;
+}
+.on button {
+    margin: 5px;
+}
+
+.soz {
+    margin-left: 6%;
+    margin-top: 50px;
+}
+
+.slide-2-1 {
+    margin-left: 6%;
+}
+
+.slide-2-2 {
+    margin-left: 36.5%;
+    margin-top: -485px;
+}
+
+.slide-2-3 {
+    margin-left: 67%;    
+    margin-top: -485px;
+}
+
+.cen-2 {
+    margin-left: 380px;
+    margin-top: -35px;
+}
+
+.polosa {
+    width: 100%;
+    height: 70px;
+    background-color: #000000;
+    color: white;
+}
+
+.polosa p{
+    margin-left: 35%;
+    display: inline-flex;
+    margin-top: 30px;
+}
+
+.polosa button {
+    width: 160px;
+    height: 45px;
+    margin-left: 20px;
+    background: #c00;
+    color: white;
+    border: none;
+    transition: 0.3s ease;
+}
+
+.polosa button:hover {
+    background: rgb(174, 0, 0);
+}
+
+.strochka-1 {
+    margin-left: 5%;
+}
+
+.footer {
+    margin-top: 80px;
+}
+
+.black-ul {
+    color: #000000;
+    font-size: 17px;
+    padding: 18px 0px 14px;
+}
+
+.hover-2 {
+    padding: 2px 0;
+    opacity: 0.9940839;
+    font-size: 13px;
+}
+
+.hover-2:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.strochka-2 {
+    margin-left: 20%;
+    margin-top: -160px;
+}
+
+.strochka-3 {
+    margin-left: 35%;
+    margin-top: -160px;
+}
+
+.strochka-4 {
+    margin-left: 52%;
+    margin-top: -235px;
+}
+
+.strochka-5 {
+    margin-left: 73%;
+    margin-top: -150px;
+}
+
+.info-p-footer {
+    font-size: 17px;
+}
+
+.pril img{
+    margin-left: 10px;
+}
+
+.end-1 {
+    margin-top: 90px;
+}
+
+.brands-1 {
+    margin-left: 43%;
+    margin-top: 50px;
+}
+
+.end-1 p {
+    margin-left: 28%;
+    margin-top: -25px;
+}
+
+.brands-2 {
+    margin-left: 55%;
+    margin-top: -35px;
+}
+
+.brands-3 {
+    margin-left: 65%;
+    margin-top: -35px;
+}
+
+.fa-location-dot {
+    margin-left: 4%;
+}
+
+.end {
+    margin-top: 50px;
+}
+
+.hover-under {
+    margin-left: 5.5%;
+    margin-top: -30px;
+    cursor: pointer;
+}
+
+.hover-under:hover {
+    text-decoration: underline;
+}
+
+.flag {
+    margin-left: 10%;
+    margin-top: -50px;
+}
+
+.us {
+    margin-left: 60px;
+    margin-top: -29px;
+}
+
+.slova-1, .slova-2, .slova-3, .slova-4, .slova-5 {
+    text-decoration: underline;
+}
+
+.slova-6 {
+    font-size: 12px;
+}
+
+.slova-1 {
+    margin-left: 16.5%;
+    margin-top: -40px;
+}
+.slova-2 {
+    margin-left: 25%;
+    margin-top: -55px;
+}
+
+.slova-3 {
+    margin-left: 35%;
+    margin-top: -55px;
+}
+
+.slova-4 {
+    margin-left: 45%;
+    margin-top: -55px;
+}
+
+.slova-5 {
+    margin-left: 70%;
+    margin-top: -55px;
+}
+
+.slova-6 {
+    margin-left: 90%;
+    margin-top: -55px;
+}
